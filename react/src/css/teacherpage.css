@@ -1,0 +1,39 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.btn12div {
+  display: flex;
+  justify-content: center;
+}
+
+.teacherText {
+  text-align: center;
+}
+
+.tableData {
+  margin: auto;
+  border: 3px solid #239aff;
+  border-radius: 30px;
+  width: 53%;
+}
+.stu {
+  display: flex;
+  justify-content: center;
+  color: rgb(102, 102, 102);
+  padding: 20px;
+  font-size: 20px;
+}
+.stu:hover {
+  color: #239aff;
+  font-weight: bold;
+}
+
+.questionText {
+  color: #239aff;
+  margin-left: 10vw;
+}

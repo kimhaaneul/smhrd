@@ -1,0 +1,101 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.gpttrubo {
+  align-content: center;
+  margin-top: 7%;
+}
+
+.truboimg {
+  display: flex;
+  margin: auto;
+}
+
+.gpttable {
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #239aff;
+  border-radius: 10px;
+}
+
+.gptinputbox {
+  width: 10vw;
+  height: 25px;
+  border-radius: 10px;
+}
+.gptinputbox::-webkit-inner-spin-button {
+  background-color: #239aff;
+}
+.gptinputbox::-webkit-inner-spin-button {
+  width: 45px;
+  height: 45px;
+}
+.movetr {
+  margin-left: 50px;
+}
+.maketd {
+  color: #239aff;
+}
+.createNext {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.gpttable th {
+  color: white;
+  text-align: right;
+  background-color: #239aff;
+  padding-right: 10px;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.gpttable td {
+  padding: 15px;
+  display: flex;
+}
+
+.gpttable input {
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 2px solid #239aff;
+}
+
+.gpttabie hr {
+  margin: 0;
+}
+
+.gpttitle {
+  padding: 10px;
+}
+
+.gptbtn1 {
+  font-size: 13pt;
+  border: none;
+  background-color: #239aff;
+  width: 80px;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}

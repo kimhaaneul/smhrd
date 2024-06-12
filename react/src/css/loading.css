@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic+Coding&family=Poor+Story&display=swap");
+
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.loadingdiv {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loadingImg {
+    animation: loadingImg-spin infinite 10s linear;
+    width: 20vw;
+  }
+}
+
+@keyframes loadingImg-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#LoadingText {
+  color: #239aff;
+  font-size: 1.5vw;
+}
+
+#LoadingNow {
+  width: 30vw;
+  margin: auto;
+  border: 3px solid #239aff;
+  border-radius: 20px;
+  padding: 30px;
+  align-items: center;
+  color: #239aff;
+}
+#Load1,
+#Load2 {
+  font-weight: bold;
+  font-size: 20px;
+}

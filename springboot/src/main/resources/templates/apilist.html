@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .layout{
+    width : 500px;
+    margin-top : 40px;
+</style>
+<body>
+<table class="layout">
+    <thead>
+    <tr>
+        <th>문제</th>
+        <th>설명</th>
+        <th>보기1</th>
+        <th>보기2</th>
+        <th>보기3</th>
+        <th>보기4</th>
+        <th>보기5</th>
+        <th>정답</th>
+        <th>난이도</th>
+        <th>타입</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="tb_member : ${list}">
+        <td th:text="${tb_member.mem_id}"></td>
+        <td th:text="${tb_member.mem_pw}"></td>
+        <td th:text="${tb_member.mem_name}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+#gomain {
+  width: 10%;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  color: #239aff;
+}
+
+.jstable {
+  margin: auto;
+  border: 2px solid #239aff;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#gomain {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-decoration-line: none;
+}

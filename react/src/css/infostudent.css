@@ -1,0 +1,79 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+h2,
+h3,
+th {
+  font-family: "Leferi";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.titleText {
+  color: #239aff;
+  font-weight: bold;
+  position: absolute;
+  left: 10%;
+}
+.infoBody {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  margin: auto;
+  width: 70%;
+  height: 400px;
+  border: 1px solid #239aff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; /* 왼쪽 오른쪽으로 정렬 */
+}
+
+.infoBody th {
+  color: #239aff;
+  font-size: 20px;
+}
+.infoBody tr {
+  line-height: 2.5;
+}
+.stuName {
+  color: #239aff;
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+.doneHomework {
+  margin-left: 15%;
+}
+.lookEasy {
+  margin-right: 15%;
+}
+.lookEasy h3 {
+  color: #239aff;
+}
+
+.is-btn {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.chart-container {
+  width: 400px;
+  height: 300px;
+}
+
+.chart-h{
+  
+}

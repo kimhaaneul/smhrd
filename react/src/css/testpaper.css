@@ -1,0 +1,146 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.testpaper-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vh;
+  margin-left: 5%;
+}
+
+.testpaper-container {
+  width: 120vh;
+  height: 500px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  margin: auto;
+}
+
+.testpaper-box {
+  display: flex;
+  width: 100%;
+}
+
+.testpaper-column {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.testpaper-question {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+}
+.answer-input{
+  padding: 5px;
+  border: 3px solid #239aff;
+  border-radius: 5px;
+  background-color: white;
+  color: #239aff;
+}
+.answer-input.selected {
+  border-color: #239aff;
+  color: white;
+}
+
+.answer-input:hover {
+  border-color: #217af4;
+  color: white;
+}
+
+
+.option-button {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #239aff;
+  border-radius: 5px;
+  background-color: white;
+  color: #239aff;
+  cursor: pointer;
+}
+
+.option-button.selected {
+  background-color: #239aff;
+  color: white;
+}
+
+.option-button:hover {
+  background-color: #217af4;
+  color: white;
+}
+
+.testpaper-btnbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testpaper-btn {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px;
+}
+
+.testpaper-container::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+}
+
+.testpaper-container::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.testpaper-container::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+  border-radius: 10px;
+}
+
+.testpaper-container {
+  scrollbar-width: thin;
+  scrollbar-color: #217af4 rgba(33, 122, 244, 0.1);
+}
+
+.testpaper-container {
+  -ms-overflow-style: none;
+}
+
+.testpaper-container::-ms-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+}
+
+.testpaper-container::-ms-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.testpaper-container::-ms-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}

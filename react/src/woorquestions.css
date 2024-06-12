@@ -1,0 +1,145 @@
+.wq-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vb;
+  margin-left: 5%;
+}
+
+.wq-p {
+  color: #239aff;
+  margin-left: 20%;
+}
+
+.wq-box {
+  width: 120vh;
+  height: 500px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  margin: auto;
+}
+
+.wq-btnbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wq-question {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.wq-question:hover {
+  border: 5px solid #239aff;
+  background-color: #f0f0f0;
+}
+
+.wq-selected {
+  border: 5px solid #239aff;
+  background-color: #e0f0ff;
+}
+
+/* Webkit (Chrome, Safari 등) */
+.wq-box::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.wq-box::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.wq-box::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+  border-radius: 10px;
+}
+
+/* Firefox */
+.wq-box {
+  scrollbar-width: thin;
+  scrollbar-color: #217af4 rgba(33, 122, 244, 0.1);
+}
+
+/* IE */
+.wq-box {
+  -ms-overflow-style: none; /* IE에서 기본 스크롤바 숨기기 */
+}
+
+.wq-box::-ms-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+}
+
+.wq-box::-ms-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.wq-box::-ms-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}
+
+.wq-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.wq-btn,
+.wq-back {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px;
+}
+
+.wq-btn1 {
+  background: #239aff;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.wq-btn2 {
+  background: #ff0000;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+}
+.wq-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wq-column {
+  width: 48%;
+}
+
+.wq-selected {
+  border: 5px solid #239aff;
+  background-color: #e0f0ff;
+}

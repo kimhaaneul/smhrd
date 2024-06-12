@@ -1,0 +1,53 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.osdiv {
+  text-align: center;
+}
+
+.osdiv h1 {
+  color: #239aff;
+}
+
+.osdiv tr {
+  color: #5f5f5f;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.osBody {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  width: 28vw;
+  height: 4vw;
+  border: 2px solid #239aff;
+}
+.osBody td {
+  color: #252525;
+  font-size: 20px;
+}
+
+.os-btn {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

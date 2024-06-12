@@ -1,0 +1,42 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.findid-h1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #239aff;
+}
+
+.id-box {
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #239aff;
+  border-radius: 10px;
+}
+
+.id-p {
+  text-align: center;
+}
+
+.findid-btn {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

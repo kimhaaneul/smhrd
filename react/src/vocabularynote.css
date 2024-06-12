@@ -1,0 +1,121 @@
+.vocabularynote-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vh;
+  margin-left: 5%;
+}
+
+.vn-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.vn-box {
+  width: 120vh;
+  height: 500px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.vn-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vn-th {
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  font-size: 3vh;
+  color: #239aff;
+  text-align: left;
+}
+
+.vn-td {
+  font-size: 20px;
+  color: #239aff;
+  margin-left: 10px;
+  cursor: pointer;
+  margin: auto;
+  padding: 10px;
+}
+
+.vn-set {
+  width: 49%;
+}
+
+.vn-pin {
+  background-image: url("../src/img/notepin1.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.vn-btn {
+  font-size: 13pt;
+  border: 1px solid #239aff;
+  background-color: #239aff;
+  width: 10vh;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 74%;
+  position: absolute;
+}
+
+/* Webkit (Chrome, Safari 등) */
+.vn-box::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.vn-box::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.vn-box::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+  border-radius: 10px;
+}
+
+/* Firefox */
+.vn-box {
+  scrollbar-width: thin;
+  scrollbar-color: #217af4 rgba(33, 122, 244, 0.1);
+}
+
+/* IE */
+.vn-box {
+  -ms-overflow-style: none; /* IE에서 기본 스크롤바 숨기기 */
+}
+
+.vn-box::-ms-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+}
+
+.vn-box::-ms-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.vn-box::-ms-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}

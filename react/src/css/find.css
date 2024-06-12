@@ -1,0 +1,111 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+.idFont {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #239aff;
+}
+
+.pwFont {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #239aff;
+}
+
+.idDiv {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#idTable {
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #239aff;
+  border-radius: 10px;
+}
+
+#idTable th {
+  color: white;
+  text-align: right;
+  background-color: #239aff;
+  padding-right: 10px;
+  height: 40px;
+  padding: 8px;
+}
+
+#idTable input {
+  width: 50%;
+  height: 25px;
+  text-align: center;
+  margin-left: 8%;
+  border-radius: 5px;
+  border: 2px solid #239aff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#pwTable input {
+  width: 50%;
+  height: 25px;
+  text-align: center;
+  margin-left: 8%;
+  border-radius: 5px;
+  border: 2px solid #239aff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.findIdBtn {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+}
+
+#pwTable {
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #239aff;
+  border-radius: 10px;
+}
+#pwTable th {
+  color: white;
+  text-align: right;
+  background-color: #239aff;
+  padding-right: 10px;
+  height: 40px;
+  padding: 8px;
+}
+.findPwBtn {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+}

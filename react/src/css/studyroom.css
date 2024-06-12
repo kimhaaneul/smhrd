@@ -1,0 +1,64 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.sbimg {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.s-listtable {
+  margin-left: 7%;
+  margin-top: 3vh;
+  width: 50%;
+  max-width: 650px;
+  border-spacing: 0;
+  border-radius: 10px;
+  background-color: #1b3e5b;
+}
+
+.s-listtable td {
+  height: 14px;
+  padding: 12px;
+  text-align: center;
+  border: 3px solid #1b3e5b;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  font: bold;
+  color: #1b3e5b;
+}
+
+.s-listtable tr {
+  height: 9px;
+  text-align: center;
+  border: 3px solid #1b3e5b;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font: bold;
+  color: #1b3e5b;
+}
+
+.s-listtable th {
+  margin-top: 10%;
+  padding: 12px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.s-margin-box {
+  margin-top: 10%;
+}
+
+.exam-name {
+  font-weight: bold;
+  color: #1b3e5b;
+}

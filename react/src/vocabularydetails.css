@@ -1,0 +1,86 @@
+.vd-title {
+  color: #239aff;
+  margin-top: 10vb;
+  margin-left: 5%;
+}
+
+.vd-box {
+  width: 120vh;
+  height: 500px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.vd-pin {
+  background-image: url("../src/img/notepin1.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.vd-box > div {
+  flex: 1 1 50%;
+}
+
+.wordbox {
+  color: #239aff;
+  font-size: 50pt;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.meaningbox {
+  font-size: 18pt;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.vd-h1 {
+  color: #239aff;
+  font-size: 50pt;
+}
+
+.vd-p {
+  color: #000000;
+  font-size: 18pt;
+}
+
+.vd-th {
+  font-size: 3vh;
+  color: #239aff;
+  text-align: left;
+}
+
+.vd-td {
+  font-size: 20px;
+  color: #239aff;
+  margin: auto;
+}
+
+.vd-btn {
+  font-size: 13pt;
+  border: 1px solid #239aff;
+  background-color: #239aff;
+  width: 10vh;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 74%;
+  position: absolute;
+}

@@ -1,0 +1,72 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.findpw-h1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #239aff;
+}
+
+.pw-box {
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #239aff;
+  border-radius: 10px;
+}
+
+.pw-p {
+  text-align: center;
+}
+
+.findpw-btn {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#pw-table {
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #239aff;
+  border-radius: 10px;
+}
+
+#pw-table input {
+  width: 50%;
+  height: 25px;
+  text-align: center;
+  margin-left: 5%;
+  border-radius: 5px;
+  border: 2px solid #239aff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#pw-table th {
+  color: white;
+  text-align: right;
+  background-color: #239aff;
+  padding-right: 10px;
+  height: 40px;
+  padding: 8px;
+}

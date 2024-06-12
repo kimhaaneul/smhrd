@@ -1,0 +1,143 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.aipreview-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vb;
+  margin-left: 5%;
+}
+
+.aipreview-box {
+  width: 120vh;
+  height: 500px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  margin: auto;
+}
+
+.allpreview-date {
+  color: #239aff;
+}
+
+.aipreview-butbox {
+  display: flex;
+}
+
+/* Webkit (Chrome, Safari 등) */
+.aipreview-box::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.aipreview-box::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.aippreview-box::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+  border-radius: 10px;
+}
+
+/* Firefox */
+.aipreview-box {
+  scrollbar-width: thin;
+  scrollbar-color: #217af4 rgba(33, 122, 244, 0.1);
+}
+
+/* IE */
+.aipreview-box {
+  -ms-overflow-style: none; /* IE에서 기본 스크롤바 숨기기 */
+}
+
+.aipreview-box::-ms-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+}
+
+.aipreview-box::-ms-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.aipreview-box::-ms-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}
+
+.aipreview-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.aipreview-question {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.aipreview-btn,
+.aipreview-back {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px;
+}
+
+.aipreview-question:hover,
+.aipreview-selected {
+  border: 5px solid #239aff;
+  background-color: #f0f0f0;
+}
+
+.aipreview-btn1 {
+  background: #239aff;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.aipreview-btn2 {
+  background: #ff0000;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.aipreview-butbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aipreview-column {
+  width: 48%;
+}

@@ -1,0 +1,38 @@
+.mp-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vh;
+  margin-left: 5%;
+}
+
+.mp-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  border: solid 3px;
+  border-color: #239aff;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.result-item {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.mp-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

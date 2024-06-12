@@ -1,0 +1,44 @@
+.namelist-title {
+  font-size: 30px;
+  color: #239aff;
+  display: flex;
+  justify-content: center;
+}
+
+.namelist-btn {
+  background: #239aff;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.namelist-btn:hover {
+  background-color: white;
+  border: 3px solid #239aff;
+  color: #239aff;
+}
+
+.namelist-li {
+  list-style: none;
+}
+
+.namelist-box {
+  border: 3px solid #239aff;
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.namelist-box ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.namelist-container {
+  margin-top: 10%;
+}

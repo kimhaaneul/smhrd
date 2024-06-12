@@ -1,0 +1,89 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.tbimg {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.t-listtable {
+  margin-left: 7%;
+  margin-top: 3vh;
+  width: 50%;
+  border-spacing: 0;
+  border-radius: 10px;
+  background-color: #1b3e5b;
+}
+
+.edit-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+#deletebtns {
+  background-color: #ffffff;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: #1b3e5b;
+  font-weight: bold;
+}
+
+.t-listtable td {
+  height: 14px;
+  padding: 12px;
+  text-align: center;
+  border: 3px solid #1b3e5b;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  color: #1b3e5b;
+  font-size: 15px;
+}
+
+.t-listtable tr {
+  height: 9px;
+  text-align: center;
+  border: 3px solid #1b3e5b;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #1b3e5b;
+  font-size: 15px;
+}
+
+.t-listtable th {
+  margin-top: 10%;
+  padding: 12px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.exam-name {
+  font-weight: bold;
+  color: #1b3e5b;
+}
+
+.t-margin-box {
+  margin-top: 10%;
+}

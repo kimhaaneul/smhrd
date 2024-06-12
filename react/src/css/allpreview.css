@@ -1,0 +1,188 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.all-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vb;
+  margin-left: 5%;
+}
+
+.all-p {
+  color: #239aff;
+  margin-left: 20%;
+}
+
+.all-info {
+  color: #239aff;
+  margin-left: 20%;
+}
+
+.date-picker {
+  color: #239aff;
+  margin-left: 20%;
+  margin: auto;
+}
+
+.all-box {
+  width: 120vh;
+  height: 500px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  margin: auto;
+}
+
+.all-btnbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-box2 {
+  width: 120vh;
+  height: 300px;
+  border: solid 5px;
+  border-color: #239aff;
+  border-radius: 30px;
+  overflow-y: auto;
+  display: flex;
+  margin: auto;
+}
+
+.all-question {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Webkit (Chrome, Safari 등) */
+.all-box::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.all-box::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.all-box::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+  border-radius: 10px;
+}
+
+/* Firefox */
+.all-box {
+  scrollbar-width: thin;
+  scrollbar-color: #217af4 rgba(33, 122, 244, 0.1);
+}
+
+/* IE */
+.all-box {
+  -ms-overflow-style: none; /* IE에서 기본 스크롤바 숨기기 */
+}
+
+.all-box::-ms-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+}
+
+.all-box::-ms-scrollbar-thumb {
+  height: 30%;
+  background: #217af4;
+  border-radius: 20px;
+}
+
+.all-box::-ms-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}
+
+.all-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.all-btn,
+.all-back {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  margin: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.aipreview-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aipreview-column {
+  width: 48%;
+}
+.all-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-column {
+  width: 48%;
+}
+
+.all-input-box1 {
+  width: 70%;
+  height: 25px;
+  text-align: center;
+  margin-left: 3%;
+  border-radius: 5px;
+  border: 2px solid #239aff;
+  margin-bottom: 10px;
+}
+
+.all-input-box2 {
+  width: 50%;
+  height: 25px;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 5px;
+  border: 2px solid #239aff;
+  margin-bottom: 10px;
+}
+
+.alldate-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.namelist-li.selected {
+  border: 2px solid #239aff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.blue-border {
+  border: 2px solid #239aff;
+}
+
+.red-border {
+  border: 2px solid red;
+}

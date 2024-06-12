@@ -1,0 +1,19 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.navbar {
+  background: #239aff;
+  width: 100%;
+  height: 75px;
+  font-size: 18px;
+}
+
+.navbar p {
+  align-items: center;
+  color: black;
+}

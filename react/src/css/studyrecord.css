@@ -1,0 +1,116 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.studyrecord-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vb;
+  margin-left: 5%;
+}
+
+.sr-hr {
+  border: 0.5px solid #239aff;
+  width: 120vh;
+  margin: auto;
+}
+
+.sr-p,
+.sr-h3 {
+  color: #239aff;
+  margin-left: 20%;
+}
+
+.sr-btn {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 2px solid #239aff;
+  background-color: #239aff;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.chart-score {
+  margin-left: 20px;
+  color: #239aff;
+  white-space: nowrap;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.srdate-box {
+  width: 120vh;
+  height: 300px;
+  border: solid 3px;
+  border-color: #239aff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  
+
+  
+}
+.t-listtable-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.t-listtables {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center; 
+}
+.exam-name2{
+  display: block;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+
+}
+
+.chart-container {
+  padding-bottom: 50px;
+}
+
+.chart {
+  width: 400px;
+  height: 300px;
+  flex: 1;
+  margin-bottom: 10%;
+}
+
+
+
+.incorrect-question {
+  padding: 10px;
+  border-radius: 5px;
+}
+.chart-titles{
+  color: #239aff;
+  font-size: 20px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  unicode-bidi: isolate;
+
+}
+.chart-scores{
+  font-size: 30px;
+}

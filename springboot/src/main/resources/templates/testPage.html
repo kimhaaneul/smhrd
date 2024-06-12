@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>t</title>
+</head>
+<body>
+<form method="post" action="/addQes">
+    시퀀스 : <input type="text" name="qes_seq" />
+    <p></p>
+    문제 : <input type="text" name="qes_desc" />
+    <p></p>
+    설명 : <input type="text" name="qes_detail" />
+    <p></p>
+    보기1 : <input type="text" name="ex1" />
+    <p></p>
+    보기2 : <input type="text" name="ex2" />
+    <p></p>
+    보기3 : <input type="text" name="ex3" />
+    <p></p>
+    보기4 : <input type="text" name="ex4" />
+    <p></p>
+    보기5 : <input type="text" name="ex5" />
+    <p></p>
+    정답 : <input type="text" name="qes_answer" />
+    <p></p>
+    난이도 : <input type="text" name="qes_level" />
+    <p></p>
+    타입 : <input type="text" name="qes_type" />
+    <p></p>
+    <button type="submit" value="생성" />
+</form>
+<ul>
+    <li th:each="문제 : ${qes_desc}"></li>
+</ul>
+</body>
+</html>

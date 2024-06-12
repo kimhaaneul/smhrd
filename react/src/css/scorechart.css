@@ -1,0 +1,44 @@
+body {
+  font-size: 15px;
+  font-family: "Pretendard";
+  color: black;
+  letter-spacing: -1px;
+  transform: rotate(0.04deg);
+}
+
+.chart-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 120vh;
+  margin: auto;
+}
+
+.chart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin-right: 25%;
+}
+
+.chart-score {
+  color: #239aff;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.chart-title {
+  font-size: 30px;
+  color: #239aff;
+  margin-top: 10vb;
+  margin-left: 5%;
+}
+
+.chart-h2,
+.chart-h3 {
+  color: #239aff;
+  margin-left: 10%;
+}
