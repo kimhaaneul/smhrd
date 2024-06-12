@@ -53,8 +53,6 @@ const AllPreview = () => {
       answerCheck[question.qes_seq] = question.qes_answer;
     });
 
-<<<<<<< Updated upstream:react/src/js/allpreview.js
-=======
     // 선택된 각 학생에 대해 별도의 시험 정보 저장
     selectedStudents.forEach(async (student) => {
       const data = {
@@ -89,17 +87,13 @@ const AllPreview = () => {
       }
     });
 
->>>>>>> Stashed changes:eduwords/eduwords/src/js/allpreview.js
     // tb_workbook에 저장할 데이터
     const workbookData = {
       memId: sessionStorage.getItem("mem_id"),
       deadline,
       workbook_qes: workbookQes,
-<<<<<<< Updated upstream:react/src/js/allpreview.js
       work_name: workbookName,
-=======
       work_name: workbookName, // 수정된 부분: workbookName을 workbook_name으로 변경
->>>>>>> Stashed changes:eduwords/eduwords/src/js/allpreview.js
       startline,
     };
 
